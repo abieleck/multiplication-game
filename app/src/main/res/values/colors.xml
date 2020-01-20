@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorLevel_1">#61FF00</color>
+    <color name="colorLevel_2">#02A342</color>
+    <color name="colorLevel_3">#539130</color>
+    <color name="colorLevel_4">#91CE5B</color>
+    <color name="colorLevel_5">#AEEA00</color>
+    <color name="colorLevel_6">#FFD600</color>
+    <color name="colorLevel_7">#FFAB00</color>
+    <color name="colorLevel_8">#FFAB00</color>
+    <color name="colorLevel_9">#D50000</color>
+    <color name="colorLevel_10">#640000</color>
+</resources>

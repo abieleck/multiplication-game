@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+            android:id="@+id/scores_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:fontFamily="monospace"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="High Scores"
+            android:gravity="center"
+    />
+
+    <TextView
+            android:id="@+id/score1_rank"
+            style="@style/high_scores_rank"
+            app:layout_constraintTop_toTopOf="@id/score1_player"
+            app:layout_constraintRight_toLeftOf="@+id/score1_player"
+            android:text="1"
+    />
+
+    <TextView
+            android:id="@+id/score1_player"
+            style="@style/high_scores_player"
+            app:layout_constraintLeft_toRightOf="@+id/score1_rank"
+            android:layout_marginTop="18dp"
+            app:layout_constraintRight_toLeftOf="@+id/score1_result"
+            app:layout_constraintTop_toBottomOf="@id/scores_title"
+            tools:text="Kubass"
+    />
+
+    <TextView
+            android:id="@+id/score1_result"
+            tools:text="32633"
+            app:layout_constraintLeft_toRightOf="@+id/score1_player"
+            app:layout_constraintTop_toTopOf="@id/score1_player"
+            style="@style/high_scores_result"
+    />
+
+    <TextView
+            android:id="@+id/score2_rank"
+            style="@style/high_scores_rank"
+            app:layout_constraintTop_toTopOf="@id/score2_player"
+            app:layout_constraintRight_toLeftOf="@+id/score2_player"
+            android:text="2"
+    />
+
+    <TextView
+            android:id="@+id/score2_player"
+            style="@style/high_scores_player"
+            app:layout_constraintLeft_toRightOf="@+id/score2_rank"
+            app:layout_constraintRight_toLeftOf="@+id/score2_result"
+            app:layout_constraintTop_toBottomOf="@id/score1_player"
+            tools:text="Adamass"
+    />
+
+    <TextView
+            android:id="@+id/score2_result"
+            tools:text="56"
+            app:layout_constraintLeft_toRightOf="@+id/score2_player"
+            app:layout_constraintTop_toTopOf="@id/score2_player"
+            style="@style/high_scores_result"
+    />
+
+    <TextView
+            android:id="@+id/score3_rank"
+            style="@style/high_scores_rank"
+            app:layout_constraintTop_toTopOf="@id/score3_player"
+            app:layout_constraintRight_toLeftOf="@+id/score3_player"
+            android:text="3"
+    />
+
+    <TextView
+            android:id="@+id/score3_player"
+            style="@style/high_scores_player"
+            app:layout_constraintLeft_toRightOf="@+id/score3_rank"
+            app:layout_constraintRight_toLeftOf="@+id/score3_result"
+            app:layout_constraintTop_toBottomOf="@id/score2_player"
+            tools:text="Adamass"
+    />
+
+    <TextView
+            android:id="@+id/score3_result"
+            tools:text="56"
+            app:layout_constraintLeft_toRightOf="@+id/score3_player"
+            app:layout_constraintTop_toTopOf="@id/score3_player"
+            style="@style/high_scores_result"
+    />
+
+    <TextView
+            android:id="@+id/score4_rank"
+            style="@style/high_scores_rank"
+            app:layout_constraintTop_toTopOf="@id/score4_player"
+            app:layout_constraintRight_toLeftOf="@+id/score4_player"
+            android:text="4"
+    />
+
+    <TextView
+            android:id="@+id/score4_player"
+            style="@style/high_scores_player"
+            app:layout_constraintLeft_toRightOf="@+id/score4_rank"
+            app:layout_constraintRight_toLeftOf="@+id/score4_result"
+            app:layout_constraintTop_toBottomOf="@id/score3_player"
+            tools:text="Adamass"
+    />
+
+    <TextView
+            android:id="@+id/score4_result"
+            tools:text="56"
+            app:layout_constraintLeft_toRightOf="@+id/score4_player"
+            app:layout_constraintTop_toTopOf="@id/score4_player"
+            style="@style/high_scores_result"
+    />
+
+    <TextView
+            android:id="@+id/score5_rank"
+            style="@style/high_scores_rank"
+            app:layout_constraintTop_toTopOf="@id/score5_player"
+            app:layout_constraintRight_toLeftOf="@+id/score5_player"
+            android:text="5"
+    />
+
+    <TextView
+            android:id="@+id/score5_player"
+            style="@style/high_scores_player"
+            app:layout_constraintLeft_toRightOf="@+id/score5_rank"
+            app:layout_constraintRight_toLeftOf="@+id/score5_result"
+            app:layout_constraintTop_toBottomOf="@id/score4_player"
+            tools:text="tataa"
+    />
+
+    <TextView
+            android:id="@+id/score5_result"
+            tools:text="43"
+            app:layout_constraintLeft_toRightOf="@+id/score5_player"
+            app:layout_constraintTop_toTopOf="@id/score5_player"
+            style="@style/high_scores_result"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

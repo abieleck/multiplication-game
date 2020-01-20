@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="level_colors">
+        <item>@color/colorLevel_1</item>
+        <item>@color/colorLevel_2</item>
+        <item>@color/colorLevel_3</item>
+        <item>@color/colorLevel_4</item>
+        <item>@color/colorLevel_5</item>
+        <item>@color/colorLevel_6</item>
+        <item>@color/colorLevel_7</item>
+        <item>@color/colorLevel_8</item>
+        <item>@color/colorLevel_9</item>
+        <item>@color/colorLevel_10</item>
+    </array>
+</resources>
